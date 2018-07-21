@@ -10,10 +10,15 @@ header {
   opacity: 0.7;
    
 }
-
-
-   
+img{
+  margin-left: 5px;
+  float: left;
   
+}
+h2{
+  float: left;
+  margin-top: 5px;
+}
 
   nav ul {
     list-style-type: none;
@@ -98,4 +103,48 @@ header {
   vertical-align: middle; 
   color:white;
 
+}
+.searchbar{
+  margin-top: 8px;
+}
+.glyphicon-search{
+  margin-top: 8px;
+  padding: 8px;
+  
+  
+}
+input[type=text]{
+  width: 87%;
+  padding: 12px;
+  font-family: arial;
+  font-size: 17px;
+  border: 1px solid #0076a3;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+  font-style: italic;
+  margin-top: 5px;
+ margin-bottom: 10px;
+
+
+}
+input[type=submit]{
+  position: absolute;
+  padding: 12px;
+  width: 8%;
+  font-family: arial;
+  font-size: 17px;
+  text-shadow: 0 0 1px #000;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  border-right: 0;
+  background: linear-gradient(#00adee, #0078a5);
+  border: 1px solid #0076a3;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  
+
+}
+.main{
+  float: left;
 }
