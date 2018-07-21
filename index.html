@@ -8,6 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="cssstyle/style.css"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
 
        <title>Rythm World</title>
   </head>
@@ -15,7 +19,11 @@
   <body>
               <header>
                   <nav>
-                     <h1>Rythm World</h1>
+                      <div class="header">
+                          <img src="images/rhythmword.png" width="100px" height="80px"/>
+                          <h2>Rhythm World</h2>
+                          
+                        </div>
 
                       <ul class="nav_ul">
                         <li><a href="#">Home</a><li>
@@ -27,10 +35,18 @@
               </header>
               
           
-                
+                    
        
       
    <div class="container">
+
+      <div class="main">
+          <form>
+              <input type="text" name="search" id = "search-btn" placeholder="search...">
+              <input type="submit" value="search" id="submit-btn">
+          </form> 
+
+
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
