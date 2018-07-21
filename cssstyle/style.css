@@ -99,3 +99,48 @@ header {
   color:white;
 
 }
+.add_videos { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  clear: both;
+}
+.add_videos { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: right;
+  margin:16px;
+
+}
+.add_videos1 { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: right;
+  margin:16px;
+}
+.add_videos2 { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: right;
+  margin:16px;
+}
+.add_videos3 { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: right;
+  margin:16px;
+}
+.add_videos4 { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: right;
+  margin:16px;
+}
+footer { 
+ 
+}
