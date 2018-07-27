@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Favorite Movies</title>
+    <style type="text/css">
+        button,
+        div,
+        form,
+        input {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<div>
+    <input type="search" id="search">
+    <button onclick=YouTubeSearch()>Search YouTube</button>
+</div>
+<div>
+    <iframe id="search-results-block" width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        function YouTubeSearch() {
+            var search = $('#search').val()
+            var queryURL = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyDWSrN0-VbmiU61JjCrUcF2tFgwM_8NVdM&q=" + search + "&part=snippet";
+
+            // Creating an AJAX call 
+            $.ajax({
+                url: queryURL,
+                method: "GET"
+            }).then(function (response) {
+                console.log(response.items[0].id.videoId);
+                document.getElementById("search-results-block").src = "https://www.youtube.com/embed/" + response.items[0].id.videoId;
+            }); // end of ajax
+
+        }
+
+        $("#mySearch").on("click", function () {
+            document.getElementById("search-results-block").src = "https://www.youtube.com/embed/" + response.items[0].id.videoId;
+        });
+
+    </script>
+
+</body>
+
+</html>
