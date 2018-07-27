@@ -131,7 +131,7 @@ input[type=text]{
 
 
 }
-input[type=submit]{
+#search{
   position: absolute;
   padding: 12px;
   width: 8%;
