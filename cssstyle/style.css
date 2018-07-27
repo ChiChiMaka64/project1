@@ -104,6 +104,50 @@ h2{
   color:white;
 
 }
+.add_videos { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  clear: both;
+}
+.add_videos { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: right;
+  margin:16px;
+
+}
+.add_videos1 { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: right;
+  margin:16px;
+}
+.add_videos2 { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: right;
+  margin:16px;
+}
+.add_videos3 { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: right;
+  margin:16px;
+}
+.add_videos4 { 
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: right;
+  margin:16px;
+}
+
+
 .searchbar{
   margin-top: 8px;
 }
@@ -114,7 +158,7 @@ h2{
   
 }
 input[type=text]{
-  width: 87%;
+  width: 86%;
   padding: 12px;
   font-family: arial;
   font-size: 17px;
@@ -148,3 +192,61 @@ input[type=submit]{
 .main{
   float: left;
 }
+
+footer {
+ 
+  background-color: #000;
+  height: 100px;
+  clear: both;
+  opacity: 0.8;
+
+}
+.fa {
+  padding:20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin:5px;
+
+}
+
+/*Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+   
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  align-items: center;
+ }
+
+ .social_icons {
+   width:25%;
+   float: right;
+   margin-top:10px;
+   
+
+
+ }
