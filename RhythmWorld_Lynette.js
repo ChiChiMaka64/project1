@@ -12,12 +12,12 @@ $("button").on("click", function() {
         url: queryPlaylistURL,
         type: "GET",
         beforeSend: function (xhr) {
-          xhr.setRequestHeader('Authorization', 'Bearer BQA2ffF9uClMOpeWME3jhiRMbszknk-SAnkt-8d5QRavlt7J7dlmHo8H-ZtB65mKu1E4WKAAC8BISOejp9a1gfAeGS2LFsS3UHdiGVM3jvMLQJU0K9KCbxKYg6qQFSS0LmknQxqWo4W7PzJxxzzEzySPW-0j0e5lUXy2rE00238');
+          xhr.setRequestHeader('Authorization', 'Bearer BQAn_IIP9n6hQ538YJq_ZGwHobMHz5_R-u8wTxvDSch0arPXArSkRAxyVfw3RmPEVJtXYAeK-woKbOcVx3wjxdDATyNN4MLbZjb716msoSj8gvfspqqBM-gOKNUwcYWda4GDK_UtLZZ2JZm9WHbEL1ngiT8r5ps7MjgucndeOOk');
         },
         success: function (response) {
           console.log(response);
           const playlists = response.playlists.items;
-
+          $('#playlists-search-results').empty();
           playlists.forEach(function (playlist) {
              const a = $('<a>');
              a.text(playlist.name),
