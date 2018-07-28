@@ -12,7 +12,7 @@ $("button").on("click", function() {
         url: queryPlaylistURL,
         type: "GET",
         beforeSend: function (xhr) {
-          xhr.setRequestHeader('Authorization', 'Bearer BQAn_IIP9n6hQ538YJq_ZGwHobMHz5_R-u8wTxvDSch0arPXArSkRAxyVfw3RmPEVJtXYAeK-woKbOcVx3wjxdDATyNN4MLbZjb716msoSj8gvfspqqBM-gOKNUwcYWda4GDK_UtLZZ2JZm9WHbEL1ngiT8r5ps7MjgucndeOOk');
+          xhr.setRequestHeader('Authorization', 'Bearer BQChw-UNSRY69iB95IQZrj3FR1Erp5QfgJGOsvb8LfAUPe2W7pN-oDThPNGCHWBHyMv_F0hr5s_qu66ewBZwnJGUXT9Cjym1O60lUFJH2zOVOxfMcLWdo8rRWCoxax-8cYSmz3uq9lvtI83WLH6-vTY5pYXsYq5TxsXauHGe46c');
         },
         success: function (response) {
           console.log(response);
